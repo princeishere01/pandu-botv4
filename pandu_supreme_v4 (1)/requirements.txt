@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+jinja2
+httpx
+websockets
+python-dotenv
+pandas
+numpy
+ta
+pytelegrambotapi
+aiofiles
+beautifulsoup4
+requests

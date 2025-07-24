@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pandu Supreme v4 Dashboard</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <h2>Pandu Supreme v4 Sniper Bot</h2>
+    <div>
+        <h3>Real-Time Signals</h3>
+        {% for signal in signals %}
+            <div>{{ signal }}</div>
+        {% endfor %}
+    </div>
+    <div>
+        <h3>Latest News</h3>
+        <ul>
+        {% for n in news %}
+            <li>{{ n.title }} - <a href="{{ n.url }}">Read</a></li>
+        {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
